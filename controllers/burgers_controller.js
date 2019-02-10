@@ -1,7 +1,6 @@
+//variables
 const express = require('express');
-
 const router = express.Router();
-
 const burger = require('../models/burger');
 
 router.get('/', (req, res) => {
